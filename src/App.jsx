@@ -1,5 +1,5 @@
 import "./App.css";
-import Dashboard from "./pages/dashboard";
+import Dashboard from "./pages/Dashboard";
 import Accounts from "./pages/Accounts";
 import Navbar from "./components/Navbar/Navbar";
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
