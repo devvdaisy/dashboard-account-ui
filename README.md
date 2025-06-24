@@ -8,5 +8,5 @@
 - React Router
 
 ## 🌐 Deployment
-Hosted on - : [https://your-app](https://your-app)
+Hosted on Azure Static Web Apps : [https://jolly-forest](https://jolly-forest-09a71551e.6.azurestaticapps.net)
 
