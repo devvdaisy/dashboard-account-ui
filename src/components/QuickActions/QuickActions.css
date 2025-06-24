@@ -1,0 +1,29 @@
+.quick-actions {
+    background-color: #1E2233;
+    padding: 1rem 2rem 2.2rem;
+    border-radius: 1.5rem;
+    border: 1px solid #313B54;
+    color: #94A3B8;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    width: 17rem;
+    box-sizing: border-box;
+}
+
+.quick-actions-header {
+    font-weight: 300;
+}
+
+.quick-actions-btns {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    justify-content: center;
+}
+
+.quick-actions-btn {
+    background-color: #3B82F6;
+    border: #1E2233;
+    border-radius: 1rem;
+    height: 2.5rem;
+}

@@ -1,0 +1,20 @@
+{
+  "lossRatio": {
+    "value": 48.2,
+    "target": 55,
+    "label": "-6.8% (GOOD)"
+  },
+  "renewalRetention": {
+    "value": 88,
+    "targetRange": [85, 90],
+    "label": "ON TARGET"
+  },
+  "newBusiness": {
+    "value": 8.1,
+    "target": 12
+  },
+  "annualGWP": {
+    "value": 28.4,
+    "target": 42
+  }
+}

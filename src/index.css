@@ -1,0 +1,42 @@
+:root {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #121622;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+body {
+  margin: 0;
+  padding: 0 8.75rem;
+}
+
+
+@media (max-width: 600px) {
+  body {
+    padding: 0 1rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  body {
+    padding: 0 3rem;
+
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  body {
+    padding: 0 6rem;
+
+  }
+}

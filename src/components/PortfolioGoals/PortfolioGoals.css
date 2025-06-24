@@ -1,0 +1,200 @@
+.portfolio-goals {
+    background-color: #1E2233;
+    padding: 1rem 2rem 2.2rem;
+    border-radius: 1.5rem;
+    border: 1px solid #313B54;
+    color: #94A3B8;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    width: 17.8rem;
+
+}
+
+.section-header {
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0.65rem 0;
+    color: #E5E7EB;
+}
+
+.goal {
+    margin-bottom: 0;
+}
+
+.goal h4 {
+    font-size: 0.85rem;
+    font-weight: 300;
+    margin: 2rem 0 0.5rem;
+}
+
+.loss-bar {
+    position: relative;
+    height: 25px;
+    border-radius: 2rem;
+    overflow: hidden;
+    display: flex;
+
+}
+
+
+.loss-segment {
+    height: 100%;
+}
+
+.loss-segment.green {
+    width: 38%;
+    background-color: #3BB979;
+}
+
+.loss-segment.yellow {
+    width: 24%;
+    background-color: #FDD261;
+}
+
+.loss-segment.red {
+    flex: 1;
+    background-color: #CC0101;
+}
+
+
+.retention-bar {
+    position: relative;
+    height: 25px;
+    border-radius: 2rem;
+    overflow: hidden;
+    display: flex;
+
+}
+
+.retention-segment {
+    height: 100%;
+}
+
+.retention-segment.red {
+    width: 16%;
+    /* flex: 1; */
+    background-color: #CC0101;
+}
+
+
+.retention-segment.yellow {
+    width: 34%;
+    background-color: #FDD261;
+}
+
+.retention-segment.green {
+    width: 14%;
+    background-color: #3BB979;
+}
+
+.retention-segment.yellow-2 {
+    flex: 1;
+    background-color: #FDD261;
+}
+
+
+.indicator {
+    position: absolute;
+    top: 2px;
+    transform: translateX(-95%) translateY(30%);
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.indicator-label {
+    padding: 2px 6px;
+    border-radius: 8px;
+    color: white;
+}
+
+.meta {
+    font-size: 0.75rem;
+    color: #94a3b8;
+}
+
+.meta-target {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateX(5%);
+}
+
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #3B82F6;
+}
+
+.arrow-up {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #3BB979;
+}
+
+.meta-good {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    transform: translateX(-15%);
+}
+
+.renewal-good {
+    transform: translateX(5%);
+
+}
+
+.meta .label.good {
+    color: #3BB979;
+}
+
+.progress-wrapper {
+    margin-top: 0.3rem;
+}
+
+.progress-bar {
+    background-color: #1e293b;
+    height: 25px;
+    border-radius: 0 2rem 2rem 0;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+}
+
+.progress-fill {
+    background: linear-gradient(45deg, #313853, #3B82F6);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 6px;
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: white;
+    border-radius: 0 1.25rem 1.25rem 0;
+}
+
+.progress-label {
+    font-weight: 300;
+}
+
+.progress-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.75rem;
+    margin-top: 0.3rem;
+    color: #cbd5e1;
+}
+
+.progress-percentage {
+    transform: translateX(500%);
+}
+
+.progress-target {
+    color: #cbd5e1;
+    transform: translateY(-160%) translateX(-30%);
+}

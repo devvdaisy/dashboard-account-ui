@@ -1,0 +1,145 @@
+.work-queue {
+    max-width: 1000px;
+    background-color: #1E2233;
+    padding: 1rem 2rem 2rem;
+    border-radius: 1.5rem;
+    border: 1px solid #313B54;
+}
+
+.section-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.section-header h2 {
+    margin: 0;
+    padding: 0.65rem 0;
+}
+
+.work-queue-tabs {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.work-queue-tab-count {
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 5px 6px;
+    margin-left: 1px;
+}
+
+.work-queue-tab {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 0.2rem 1rem;
+    background-color: #0C0F17;
+    color: #cbd5e1;
+    border: none;
+    border-radius: 5rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.work-queue-tab.active {
+    background-color: #3B82F6;
+    color: white;
+}
+
+
+.queue-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.queue-table th,
+.queue-table td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #334155;
+    color: #e2e8f0;
+    vertical-align: middle;
+
+}
+
+.queue-table th {
+    font-weight: 600;
+    color: #94a3b8;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+
+.originator-cell {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.originator-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #1e40af;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    font-size: 0.5rem;
+    text-transform: uppercase;
+}
+
+.status {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #e2e8f0;
+    font-weight: 500;
+    line-height: 1;
+    height: 100%;
+}
+
+.status-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    flex-shrink: 0;
+}
+
+.status-label {
+    vertical-align: middle;
+}
+
+.status-dot.new {
+    background-color: #facc15;
+}
+
+.status-dot.pending-review {
+    background-color: #60a5fa;
+}
+
+.status-dot.completed {
+    background-color: #4ade80;
+}
+
+
+
+@media (max-width: 600px) {
+    .tabs {
+        flex-wrap: wrap;
+    }
+
+    .queue-table {
+        font-size: 0.8rem;
+    }
+
+    .avatar {
+        display: none;
+    }
+}
